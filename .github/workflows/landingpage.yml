@@ -7,7 +7,7 @@ on:
       - main
 jobs:
   build-deploy:
-    runs-on: [self-hosted, linux, X64, public-devrel]
+    runs-on: [self-hosted, public, linux, x64]
 
     steps:
       - name: Checkout Repo
