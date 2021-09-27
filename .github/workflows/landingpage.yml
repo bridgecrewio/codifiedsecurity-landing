@@ -1,10 +1,10 @@
 name: Publish Hugo CodifiedSecurity landing page
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
