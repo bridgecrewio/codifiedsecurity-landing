@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
         with:
-          submodules: true
+          submodules: false
       - name: Hugo to GH Pages
         uses: chabad360/hugo-gh-pages@v2
         with:
